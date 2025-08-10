@@ -45,33 +45,33 @@ Download from here - https://www.kaggle.com/datasets/ambityga/imagenet100
 ## 📊 Results
 
 ### **Final Top-1 Accuracy Comparison**
-![Top-1 Accuracy](results/plots/comparison_top1.png)
+![Top-1 Accuracy](plots/comparison_top1.png)
 
 ### **Final Top-5 Accuracy Comparison**
-![Top-5 Accuracy](results/plots/comparison_top5.png)
+![Top-5 Accuracy](plots/comparison_top5.png)
 
 ### **Parameter Count Comparison**
-![Parameter Count](results/plots/comparison_params.png)
+![Parameter Count](plots/comparison_params.png)
 
 ---
 
 ## 📈 Training Curves
 
 ### PlainNet34
-![PlainNet34 Loss](results/plots/PlainNet34_loss.png)
+![PlainNet34 Loss](plots/PlainNet34_loss.png)
 ![PlainNet34 Accuracy](results/plots/PlainNet34_accuracy.png)
 
 ### VGG19
-![VGG19 Loss](results/plots/VGG19_loss.png)
-![VGG19 Accuracy](results/plots/VGG19_accuracy.png)
+![VGG19 Loss](plots/VGG19_loss.png)
+![VGG19 Accuracy](plots/VGG19_accuracy.png)
 
 ### ResNet34
-![ResNet34 Loss](results/plots/ResNet34_loss.png)
-![ResNet34 Accuracy](results/plots/ResNet34_accuracy.png)
+![ResNet34 Loss](plots/ResNet34_loss.png)
+![ResNet34 Accuracy](plots/ResNet34_accuracy.png)
 
 ### EfficientNetB0
-![EfficientNetB0 Loss](results/plots/EfficientNetB0_loss.png)
-![EfficientNetB0 Accuracy](results/plots/EfficientNetB0_accuracy.png)
+![EfficientNetB0 Loss](plots/EfficientNetB0_loss.png)
+![EfficientNetB0 Accuracy](plots/EfficientNetB0_accuracy.png)
 
 ---
 
