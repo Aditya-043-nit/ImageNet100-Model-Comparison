@@ -1,0 +1,5 @@
+model_name,final_train_loss,final_val_loss,final_train_acc,final_val_top1_acc,final_val_top5_acc,total_train_time_sec,total_train_time_min,num_params,batch_size,optimizer,learning_rate_schedule,image_size,architecture_type
+PlainNet34_ImageNet100,3.196075449,3.204841341,21.02153846,20.74,48.88,15493.39163,258.22,21169764,128,Adam (first 30 epochs) + SGD (rest),"StepLR: Adam(step=10, gamma=0.1), SGD(step=30, gamma=0.1)",64x64,PlainNet34
+VGG19_ImageNet100,0.673146416,1.117485735,81.12461538,71.36,90.8,17447.48931,290.79,45619108,128,Adam (first 30 epochs) + SGD (rest),"StepLR: Adam(step=10, gamma=0.1), SGD(step=30, gamma=0.1)",64x64,VGG19
+ResNet34_ImageNet100,0.777230445,1.489327422,78.45692308,62.76,85.36,15541.65402,259.03,21335972,128,Adam (first 30 epochs) + SGD (rest),"StepLR: Adam(step=10, gamma=0.1), SGD(step=30, gamma=0.1)",64x64,ResNet34
+EfficientB0_ImageNet100,1.273013234,1.486723593,65.56923077,60.64,84.76,15665.48881,261.09,5288548,128,Adam (first 30 epochs) + SGD (rest),"StepLR: Adam(step=10, gamma=0.1), SGD(step=30, gamma=0.1)",64x64,EfficientB0
