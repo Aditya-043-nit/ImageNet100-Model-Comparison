@@ -100,7 +100,7 @@ A noticeable dip in accuracy occurred around epoch 30 — this corresponds to **
 
 **PlainNet34**  
 ![PlainNet34 Loss](plots/PlainNet34_loss.png)  
-![PlainNet34 Accuracy](results/plots/PlainNet34_accuracy.png)  
+![PlainNet34 Accuracy](plots/PlainNet34_accuracy.png)  
 
 **VGG19**  
 ![VGG19 Loss](plots/VGG19_loss.png)  
