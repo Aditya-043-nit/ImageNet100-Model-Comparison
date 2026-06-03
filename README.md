@@ -127,7 +127,9 @@ A noticeable dip in accuracy occurred around epoch 30 — this corresponds to **
 
 ## Observation
 
-I don't have a definitive explanation. My leading hypothesis is that the architectural assumptions behind ResNet34 and EfficientNetB0 were developed for higher-resolution inputs, whereas VGG19's simple stack of 3×3 convolutions may preserve useful information better at 64×64 resolution. However, I would need additional ablation studies to verify this.
+VGG19 achieved the highest Top-1 accuracy (71.36%), outperforming both ResNet34 (62.76%) and EfficientNetB0 (60.64%), despite the latter architectures generally being considered more parameter-efficient and effective on standard ImageNet benchmarks.
+
+I do not have a definitive explanation for this result. My leading hypothesis is that the architectural assumptions behind ResNet34 and EfficientNetB0 were developed and tuned primarily for higher-resolution inputs, whereas VGG19's straightforward stack of 3×3 convolutions may preserve useful spatial information more effectively at 64×64 resolution. Another possible factor is that the optimizer-switching strategy (Adam → SGD) may have affected the architectures differently. Additional ablation studies, such as varying input resolution, modifying the initial downsampling layers, or testing alternative optimization schedules, would be needed to validate these hypotheses.
 ---
 
 ## 🚀 How to Run
