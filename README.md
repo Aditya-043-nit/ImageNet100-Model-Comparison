@@ -125,6 +125,9 @@ A noticeable dip in accuracy occurred around epoch 30 — this corresponds to **
 | ResNet34       | 62.76     | 85.36     | 0.777      | 1.489    | 21.34      |
 | EfficientNetB0 | 60.64     | 84.76     | 1.273      | 1.487    | 5.00       |
 
+## Observation
+
+I don't have a definitive explanation. My leading hypothesis is that the architectural assumptions behind ResNet34 and EfficientNetB0 were developed for higher-resolution inputs, whereas VGG19's simple stack of 3×3 convolutions may preserve useful information better at 64×64 resolution. However, I would need additional ablation studies to verify this.
 ---
 
 ## 🚀 How to Run
